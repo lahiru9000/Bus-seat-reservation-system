@@ -1,0 +1,64 @@
+/************************************************************************
+*
+* login.scss 
+* ----------------------------------------------------------------------
+* Page styles for login.
+*
+* Author: Humza Khan
+* Date: May 28, 2017.
+*
+*************************************************************************/
+
+.auth-box {
+    >.card {
+        display: block;
+        margin: 0 auto;
+    }
+    .user-icon {
+        margin-bottom: $padding-base-vertical;
+        >i {
+            font-size: $font-size-lg * 4;
+            color: $brand-primary;
+        }
+    }
+    .user-details {
+        margin-top: $padding-large-vertical * 3;
+        .input-group-addon {
+            width: 35px;
+        }
+    }
+    .user-links {
+        padding-top: $content-padding-base;
+        padding-bottom: $content-padding-base * 1.5;
+        font-size: $font-size-sm;
+    }
+    input {
+        font-family: $font-family-base;
+        &:focus {
+            border-color: $input-border-color !important;
+        }
+    }
+}
+
+.login,
+.register {
+    &.card {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+#login,
+.login {
+    &.card {
+        max-width: $login-container-width;
+    }
+}
+
+#register,
+.register {
+    &.card {
+        max-width: $register-container-width;
+    }
+}

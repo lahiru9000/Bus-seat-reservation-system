@@ -1,0 +1,202 @@
+/************************************************************************
+*
+* helpers.scss 
+* ----------------------------------------------------------------------
+* Helper items
+*
+* Author: Humza Khan
+* Date: Apr 28, 2017.
+*
+*************************************************************************/
+
+// Widths
+.width-350 {
+    width: 350px;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.width-190 {
+    width: 190px !important;
+}
+
+//Heights
+.height-200 {
+    height: 200px;
+}
+
+.height-250 {
+    height: 250px;
+}
+
+.height-300 {
+    height: 300px;
+}
+
+.height-350 {
+    height: 350px;
+}
+
+// Legend
+legend {
+    text-transform: uppercase;
+    font-size: $font-size-base;
+    padding: $content-padding-small $content-padding-small;
+    border-bottom: 1px solid $panel-default-border;
+    padding-left: 0;
+}
+
+//Displays
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+//Alignments
+.valign-top {
+    vertical-align: top !important;
+}
+
+.valign-middle {
+    vertical-align: middle !important;
+}
+
+//Positions
+.position-left {
+    margin-right: $padding-large-vertical;
+}
+
+.position-right {
+    margin-left: $padding-large-vertical;
+}
+
+// Typography
+.text-bold {
+    font-weight: 800;
+}
+
+.text-semibold {
+    font-weight: 400;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-right: center;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+// Margins
+.margin-5 {
+    margin: 5px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-right-5 {
+    margin-right: 5px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-right-15 {
+    margin-right: 15px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}

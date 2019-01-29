@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-10-13T04:43:36.762+0000",
+  "status": 404,
+  "error": "Not Found",
+  "message": "/WEB-INF/jsp/add-user.jsp",
+  "path": "/user/add"
+}

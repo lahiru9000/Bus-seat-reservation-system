@@ -1,0 +1,12 @@
+.input-group {
+    @media(max-width: $screen-size-md) {
+        margin-bottom: $content-padding-small;
+    }
+}
+
+@media(min-width: 420px) {
+    .form-horizontal {
+        text-align: left;
+        vertical-align: middle;
+    }
+}

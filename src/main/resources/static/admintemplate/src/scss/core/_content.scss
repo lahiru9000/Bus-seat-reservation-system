@@ -1,0 +1,107 @@
+/************************************************************************
+*
+* content.scss 
+* ----------------------------------------------------------------------
+* Content's basic layout of the web app
+*
+* Author: Humza Khan
+* Date: Mar 28, 2017.
+*
+*************************************************************************/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base !important;
+    background-color: $body-bg;
+}
+
+.page-container {
+    position: relative;
+    @media (min-width: $screen-size-md) {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@-moz-document url-prefix() {
+    .page-container {
+        height: 1px;
+    }
+}
+
+.page-content {
+    @media (min-width: $screen-size-md) {
+        display: table-row;
+    }
+}
+
+.content {
+    padding: $content-padding-large $content-padding-large;
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .page-header+& {
+        padding-top: 0;
+    }
+}
+
+.content-wrapper {
+    padding-bottom: $line-height-lg;
+    width: 100%;
+    @media (min-width: $screen-size-md) {
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+
+.content-group {
+    margin-bottom: 20px !important;
+}
+
+.content-group-sm {
+    margin-bottom: 15px !important;
+}
+
+.content-group-lg {
+    margin-bottom: 30px !important;
+}
+
+.form-horizontal {
+    .control-label {
+        text-align: right;
+        width: 100%;
+        display: block;
+    }
+}
+
+.page-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: $font-size-lg * 1.3;
+    >small {
+        font-size: 15px;
+        display: inline-block;
+        padding-left: 4px;
+        font-weight: 300;
+    }
+}
+
+.main-footer {
+    background: #fff;
+    padding: 15px;
+    color: #444;
+    border-top: 1px solid #d2d6de;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

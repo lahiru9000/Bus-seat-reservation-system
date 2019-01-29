@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-09-09T10:19:47.344+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Required int parameter 'id' is not present",
+  "path": "/bus/update"
+}
