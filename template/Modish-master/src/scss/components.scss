@@ -1,0 +1,38 @@
+/************************************************************************
+*
+* components.scss 
+* ----------------------------------------------------------------------
+* All components of the template.
+*
+* Author: Humza Khan
+* Date: Mar 28, 2017.
+*
+*************************************************************************/
+
+// Core Variable overrides
+@import "core/variables";
+@import "core/mixins";
+// Core variables and mixins
+@import "../../bower_components/bootstrap/scss/variables";
+@import "../../bower_components/bootstrap/scss/mixins";
+@import "../../bower_components/bootstrap/scss/custom";
+// Layout
+@import "core/content";
+@import "core/layout/sidebar";
+// Helpers
+@import "components/helpers";
+@import "components/notifications";
+// Icons
+@import "components/fontawesome";
+//Pickers
+@import "components/datepickers";
+//Tables
+@import "components/datatables";
+//Pages
+@import "pages/auth";
+//Widgets
+@import "components/widgets";
+//Extras
+@import "components/extras";
+//Overrides
+@import "components/chartist";

@@ -1,0 +1,65 @@
+/************************************************************************
+*
+* buttons.scss 
+* ----------------------------------------------------------------------
+* Custom buttons styling.
+*
+* Author: Humza Khan
+* Date: Apr 18, 2017.
+*
+*************************************************************************/
+
+.btn {
+    position: relative;
+    margin: 2px;
+    font-weight: bold;
+    position: relative;
+    font-size: 0.8rem;
+    margin: 2px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+    >i {
+        font-size: 12px;
+    }
+    &,
+    &:active,
+    &.active {
+        &:focus,
+        &.focus {
+            outline: 0;
+        }
+    }
+    &::-moz-focus-inner {
+        border: 0;
+    }
+    &:hover,
+    &:focus,
+    &.focus {
+        @include box-shadow(0 0 0 100px fade(#000, 5%) inset);
+        cursor: pointer; // Active state
+        &:active,
+        &.active {
+            @include box-shadow(0 0 0 100px fade(#000, 10%) inset);
+        }
+        &[class*=bg-]:hover,
+        &[class*=bg-]:active,
+        &[class*=bg-]:focus {
+            color: #fff;
+        }
+    }
+    &.btn-rounded {
+        border-radius: 100px;
+    }
+}
+
+.btn-lg {
+    padding: 0.8em 0.8em;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: $font-family-base;
+}
